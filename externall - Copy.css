@@ -161,7 +161,7 @@ img {
 }
 
 .footer {
-    background: #333;
+    background:peru;
     color: #fff;
     padding: 50px 0;
 }
@@ -170,6 +170,10 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.footer-content {
+    color: #fff;
 }
 
 .footer-section {
@@ -210,7 +214,7 @@ img {
 .footer-bottom {
     text-align: center;
     padding-top: 20px;
-    background: #444;
+    background: rgb(125, 93, 60);
     color: #fff;
     font-size: 0.9rem;
     padding: 10px 0;

@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
- <link rel="stylesheet" href="externall - Copy.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="externall - Copy.css">
  
   <title>Perpustakaan Billi</title>
 </head>
@@ -27,8 +28,8 @@
             <li><a href="#">Modul 2 <i class="fas fa-caret-right"></i></a>
               <div class="dropdown4-1">
                 <ul>
-                  <li><a href="modul 2 no 1.html">Form</a></li>
-                  <li><a href="Modul 2 Nomor 2 new1.html">Tabel</a></li>
+                  <li><a href="modul 2 no 1.html">Form Pendaftaran</a></li>
+                  <li><a href="Modul 2 Nomor 2 new1.html">Tabel Buku</a></li>
                 </ul>
             </li>
             <li><a href="paragraf2.html">Modul 3</a></li>
@@ -55,7 +56,6 @@
       <li><a href="#">Berita dan Pengumuman</a></li>
     </ul>
   </div>
-     
 
 <div class="fContainer"></div> 
 <div class="wrapper">
@@ -64,7 +64,12 @@
     <div class="kolom">
     <p class="deskripsi"> Selamat Datang di</p>
     <h2> Web Perpustakaan Billi</h2>
-    <p class="deskripsi2"> Menyediakan berbagai layanan dan informasi terkait Perpustakaan</p>
+    <p class="deskripsi2"> WEBSITE INI DIBUAT UNTUK MEMENUHI TUGAS MATA KULIAH PEMEROGRAMAN WEB, PROGRAM STUDI PERPUSTAKAAN DAN SAINS INFORMASI
+      FAKULTAS ILMU BUDAYA UNIVERSITAS SUMATERA UTARA
+    </p>
+    <P>Nama: Billi Hosea Sembiring</P>
+    <P>NIM: 210709043</P>
+    <P>Dosen Pengampu: Himma Dewiyana, S.T., M.Hum.,</P>
     </div>
   </section>
 </div>
@@ -73,47 +78,51 @@
   &nbsp;
 </section>
 
-<footer class="footer">
-  <div class="container">
-      <div class="footer-content">
-          <div class="footer-section about">
-              <h2 class="logo-text">Bil Library</h2>
-              <p>
-                  -
-              </p>
-              <div class="contact">
-                  <span><i class="fas fa-phone"></i> 123-456-789</span>
-                  <span><i class="fas fa-envelope"></i> info@billibrary.com</span>
-              </div>
-              <div class="socials">
+<script>
+  var nav = document.querySelector("nav")
+  window.addEventListener("scroll", ()=>  {
+    if (document.documentElement.scrollTop > 20 ) {
+      nav.classList.add("sticky");
+    }
+  });
+</script>
+
+<footer >
+  <div class="col-12 col-md-12 mt-5 " style="background: rgb(201, 140, 79)">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3 mt-5">
+                <h5>Perpustakaan Billi.</h5>
+                <div class="socials">
                   <a href="#"><i class="fab fa-facebook"></i></a>
                   <a href="#"><i class="fab fa-twitter"></i></a>
                   <a href="#"><i class="fab fa-instagram"></i></a>
               </div>
-          </div>
-          <div class="footer-section links">
-              <h2>Quick Links</h2>
-              <ul>
-                  <li><a href="#">Tentang Kami</a></li>
-                  <li><a href="#">Koleksi Buku</a></li>
-                  <li><a href="#">Layanan</a></li>
-                  <li><a href="#">Kontak</a></li>
-              </ul>
-          </div>
-      </div>
-  </div>
-  <div class="footer-bottom">
-      &copy; 2024 Perpustakaan | Dibuat dengan <i class="fas fa-heart"></i> oleh Tim Perpustakaan
-  </div>
+                <p>2024 copyright reserved &copy;</p>
+            </div>
+            <div class="col-12 col-md-3 mt-5">
+                <h5>About</h5>
+                <p>Blog</p>
+                <p>Publish With Us</p>
+            </div>
+            <div class="col-12 col-md-3 mt-5">
+               <h5>Help</h5>
+               <p>Contact Us</p>
+               <p>Helps</p>
+               <p>Term and Conditions</p>
+               <p>Privacy Policy</p>
+           </div>
+           <br>
+           <div class="col-12 col-md-3 mt-5">
+               <h5>Network</h5>
+               <p>billilibrary@gmail.com</p>
+           </div>
+        </div>
+    </div>
+</div>
+</div>
 </footer>
 
-<script>
-  document.addEventListener('DOMContentLoaded',() =>{
-var disclaimer = document.querySelector("img[alt='www.000webhost.com']");
-if(disclaimer){
-   disclaimer.remove();
-}
-});
-</script>
+
 </body>
 </html>

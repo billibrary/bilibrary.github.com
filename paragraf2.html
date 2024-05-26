@@ -6,7 +6,23 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="externall - Copy.css">
- 
+  <script type="text/javascript" src="jquery.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#judul").click(function(){
+          $("p").slideUp();
+      })
+      $("#judul").dblclick(function(){
+          $("p").slideDown();
+      })
+      $("#judul2").click(function(){
+          $("p1").slideUp();
+      })
+      $("#judul2").dblclick(function(){
+          $("p1").slideDown();
+      })
+  });
+  </script>
 
   
   <title>Paragraf</title>
@@ -75,14 +91,14 @@
     height: 440px;
     border: 2px;">
     <div class="kolom">
-      <h1>HTML dan CSS: Pengertian dan Perbedaan</h1>
-      <p>HTML dan CSS merupakan dua hal yang saling terkait dalam pembuatan sebuah website. Meskipun keduanya sering digunakan bersamaan, namun banyak juga orang yang belum mengetahui perbedaan antara keduanya. Jika kamu penasaran perbedaan dari kedua hal tersebut, maka kamu sudah berada di artikel yang tepat!</p>
+      <h1 id="judul">HTML dan CSS: Pengertian dan Perbedaan</h1>
+      <p class="Paragraf">HTML dan CSS merupakan dua hal yang saling terkait dalam pembuatan sebuah website. Meskipun keduanya sering digunakan bersamaan, namun banyak juga orang yang belum mengetahui perbedaan antara keduanya. Jika kamu penasaran perbedaan dari kedua hal tersebut, maka kamu sudah berada di artikel yang tepat!</p>
       <p>HTML atau Hyper Text Markup Language adalah bahasa markup yang digunakan dalam pembuatan halaman website. Sementara itu, CSS atau Cascading Style Sheets adalah bahasa style sheet yang digunakan untuk memberikan tampilan atau style pada halaman website tersebut. Singkatnya, HTML digunakan untuk membuat struktur dan konten dari halaman website serta memasukkan gambar dan video, sedangkan CSS digunakan untuk memberikan tampilan yang menarik dan komunikatif pada halaman tersebut.</p>
       <p>Perbedaan antara HTML dan CSS yang jelas adalah dengan fungsinya. HTML digunakan untuk membuat konten dan struktur dari halaman website. Sementara itu, CSS digunakan untuk memberikan tampilan pada halaman website tersebut, baik itu warna, ukuran font, hingga margin dan padding. Oleh karena itu, HTML dan CSS menjadi sangat penting dalam pembuatan website sehingga perbedaan keduanya sangat perlu untuk diketahui.</p>
-      <h2>HTML tag : Apa itu HTML dan CSS?</h2>
-    <p> HTML dan CSS adalah dua bahasa pemrograman yang sangat penting dalam pembuatan website. Keduanya memiliki perbedaan dan fungsi yang berbeda, meskipun keduanya digunakan secara bersama-sama untuk menghasilkan halaman web yang lebih menarik dan interaktif. Untuk memahami perbedaan antara HTML dan CSS, kita perlu memahami apa itu HTML dan CSS terlebih dahulu.</p>
-    <p>HTML (Hypertext Markup Language) adalah bahasa markup standar yang digunakan untuk membuat dan merancang halaman web. HTML digunakan untuk mengatur struktur dan konten halaman web, seperti memformat bagian teks, gambar, video, tabel, audio, dan elemen lainnya.</p>
-    <p>CSS (Cascading Style Sheets), di sisi lain, digunakan untuk mengontrol tampilan dan tata letak halaman web. CSS digunakan untuk mengubah warna, ukuran, jenis huruf, jarak, dan tingkat transparansi elemen pada halaman web. Dengan CSS, Anda dapat membuat halaman web lebih menarik secara visual dan mudah dibaca bagi pengguna.
+      <h2 id="judul2">HTML tag : Apa itu HTML dan CSS?</h2>
+    <p1> HTML dan CSS adalah dua bahasa pemrograman yang sangat penting dalam pembuatan website. Keduanya memiliki perbedaan dan fungsi yang berbeda, meskipun keduanya digunakan secara bersama-sama untuk menghasilkan halaman web yang lebih menarik dan interaktif. Untuk memahami perbedaan antara HTML dan CSS, kita perlu memahami apa itu HTML dan CSS terlebih dahulu.</p>
+    <p1>HTML (Hypertext Markup Language) adalah bahasa markup standar yang digunakan untuk membuat dan merancang halaman web. HTML digunakan untuk mengatur struktur dan konten halaman web, seperti memformat bagian teks, gambar, video, tabel, audio, dan elemen lainnya.</p>
+    <p1>CSS (Cascading Style Sheets), di sisi lain, digunakan untuk mengontrol tampilan dan tata letak halaman web. CSS digunakan untuk mengubah warna, ukuran, jenis huruf, jarak, dan tingkat transparansi elemen pada halaman web. Dengan CSS, Anda dapat membuat halaman web lebih menarik secara visual dan mudah dibaca bagi pengguna.
 
     </p>
   

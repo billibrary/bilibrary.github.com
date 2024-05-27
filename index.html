@@ -7,6 +7,21 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="externall - Copy.css">
   <script src="https://kit.fontawesome.com/f9355065a6.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $(".slider").bxSlider();
+    });
+  </script>
+<style type="text/css">
+*{margin: 0;padding: 0;}
+.container{width: 900px;margin: auto;}
+</style>
+
   <title>Perpustakaan Billi</title>
 </head>
 <body>
@@ -14,65 +29,39 @@
     <h1 class="logo">Perpustakaan <span>Billi.</span></h1>
 
     <ul>
-      <li><a href="index.html">Beranda</a></li>
-      <li><a href="#">Profil <i class="fas fa-caret-down"></i> </a>
+    <li><a href="index.html">Beranda</a></li>
+    <li><a href="#">Profil <i class="fas fa-caret-down"></i></a>
         <div class="dropdown4">
           <ul>
-            <li><a href="visimisi.html">Visi dan Misi</a></li>
+            <li><a href="profil.html">Profil</a></li>
             <li><a href="struktur.html">Struktur Organisasi</a></li>
+            <li><a href="#">Pustakawan</a></li>
+            <li><a href="#">Kontak</a></li>
           </ul>
-      </li>
-      <li><a href="#">Modul <i class="fas fa-caret-down"></i> </a>
+    <li><a href="#">Layanan <i class="fas fa-caret-down"></i> </a>
         <div class="dropdown4">
           <ul>
-            <li><a href="#">Modul 1 <i class="fas fa-caret-right"></i></a>
-              <div class="dropdown4-1">
-                <ul>
-                  <li><a href="list perpustakaan.html">Perpustakaan</a></li>
-                  <li><a href="modul 1 no 2.html">Audio Video</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Modul 2 <i class="fas fa-caret-right"></i></a>
-              <div class="dropdown4-1">
-                <ul>
-                  <li><a href="modul 2 no 1.html">Form Pendaftaran</a></li>
-                  <li><a href="Modul 2 Nomor 2 new1.html">Tabel Buku</a></li>
-                </ul>
-            </li>
-            <li><a href="paragraf2.html">Modul 3</a></li>
-            <li><a href="#">Modul 4 <i class="fas fa-caret-right"></i></a>
-              <div class="dropdown4-1">
-                <ul>
-                  <li><a href="table bordered.html">Table Bordered</a></li>
-                  <li><a href="Form Button.html">Form Button</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Modul 5 <i class="fas fa-caret-right"></i></a>
-              <div class="dropdown4-1">
-                <ul>
-                  <li><a href="#">1</a></li>
-                  <li><a href="#">2</a></li>
-                </ul>
-            </li>
-      </ul>
-      </div>
+            <li><a href="Form.html">Daftar Anggota</a></li>
+            <li><a href="perpanjang.html">Perpanjang Koleksi</i></a></li>
+          </ul>
+        </div>
       </li>
-
-      <li><a href="koleksi.html">Koleksi</a></li>
-      <li><a href="berita.html">Berita dan Pengumuman</a></li>
+    <li><a href="koleksi.html">Koleksi</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="paragraf2.html">Paragraf</a></li>
     </ul>
   </div>
+
 
 <div class="fContainer"></div> 
 <div class="wrapper">
   <section id="home">
-    <img src="perpus.avif" alt="">
+    <img src="./img/perpus.avif" alt="">
     <div class="kolom">
     <p class="deskripsi"> Selamat Datang di</p>
     <h2> Web Perpustakaan Billi</h2>
     <p class="deskripsi2"> Website ini dibuat untuk memenuhi tugas mata kuliah Pemerograman Web, Program Studi Perpustakaan dan Sains Informasi
-      Fakultas Ilmu Budaya Sumatera Utara
-    </p>
+      Fakultas Ilmu Budaya Sumatera Utara</p>
     <P>Nama: Billi Hosea Sembiring</P>
     <P>NIM: 210709043</P>
     <P>Dosen Pengampu: Himma Dewiyana, S.T., M.Hum.,</P>
@@ -86,7 +75,7 @@
       <div class="row">
         <div class="col-sm-12 col-md-12">
           <tr>
-            <th> Pameran Buku</th>
+            <th> Top Koleksi</th>
         </tr>
           <form class="d-flex" >
             <input

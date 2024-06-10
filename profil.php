@@ -1,0 +1,176 @@
+<html>
+    <head>
+
+      <link rel="stylesheet" href="externall - Copy.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="externall - Copy.css">
+      <script type="text/javascript" src="jquery.js"></script>
+     
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+  
+      <script>
+        $(document).ready(function(){
+          $(".slider").bxSlider();
+          $("#judul").click(function(){
+          $("p.paragraf").slideUp();
+      })
+          $("#judul").dblclick(function(){
+          $("p.paragraf").slideDown();
+      })
+          $("#visi").click(function(){
+          $("p1.visi2").slideUp();
+      })
+          $("#visi").dblclick(function(){
+          $("p1.visi2").slideDown();
+      })
+      
+
+
+        });
+
+
+      </script>
+
+  <style type="text/css">
+    *{margin: 0;padding: 0;}
+    .container{width: 1000px;margin: auto;}
+  </style>
+  
+      <title>Profil Perpustakaan</title>
+
+    </head>
+    <body>
+    <div class="menu_bar">
+    <h1 class="logo">Perpustakaan <span>Billi.</span></h1>
+
+    <ul>
+    <li><a href="index.php">Beranda</a></li>
+    <li><a href="#">Profil <i class="fas fa-caret-down"></i></a>
+        <div class="dropdown4">
+          <ul>
+            <li><a href="profil.php">Profil</a></li>
+            <li><a href="#">Kontak</a></li>
+          </ul>
+    <li><a href="#">Layanan <i class="fas fa-caret-down"></i> </a>
+        <div class="dropdown4">
+          <ul>
+            <li><a href="data.php">Data Anggota</a></li>
+            <li><a href="data.php">Perhitungan</a></li>
+            <li><a href="no1.php">Belajar PHP</a></li>
+            <li><a href="Form.php">Daftar Anggota</a></li>
+            <li><a href="perpanjang.php">Perpanjang Koleksi</i></a></li>
+          </ul>
+        </div>
+      </li>
+    <li><a href="koleksi.php">Koleksi</a></li>
+    <li><a href="paragraf2.php">Paragraf</a></li>
+    <li><a href="login.php">Login</a></li>
+    </ul>
+  </div>
+  
+      <br>
+      <br>
+      <center> <h1 style="font: bolder;" <b><head><tittle>PROFIL SINGKAT
+      </tittle></head></b> </h1> </center>
+      <center> <h1 style="font: bolder;" <b><head><tittle>PERPUSTAKAAN BILLI
+      </tittle></head></b> </h1> </center>
+<br>
+<br>
+<div>
+      <div class="container">
+        <div class="slider">
+        <img src="./img/f1.jpg" alt="">
+        <img src="./img/p1.png" alt="">
+        <img src="./img/p2.jpg" alt="">
+      </div>
+
+
+      <h1 id="judul">Perpustakaan Billi</h1>
+      <p class="paragraf"> Perpustakaan Billi adalah pusat pengetahuan yang dibentuk pada tahun 2024 dan berlokasi pada Jl. Berdikari no.06, Kota Medan, Sumatra Utara. Dibangun dengan visi Menjadi pusat pengetahuan yang dinamis dan inklusif 
+        yang memberikan akses mudah dan merangkul semua lapisan masyarakat untuk memperluas wawasan, meningkatkan keterampilan, dan memupuk budaya literasi</p>
+      <p class="paragraf">Dengan komitmen untuk memberikan layanan unggul  dan mendukung pertumbuhan intelektual komunitas akademik, Perpustakaan Billi terus menjadi pusat pengetahuan yang inovatif dan inklusif bagi civitas akademika.</p>
+<br>      
+<div class="kolom">
+  <h1 style="font-size: 30px;" id="visi">Visi dan Misi Perpustakaan</h1>
+  <p1 style="font-size: 20px;" class="visi2">Visi Perpustakaan 2024-2030</p1>
+  <br>
+  <p1 style="width: 70%;" class="visi2">"Menjadi pusat pengetahuan yang dinamis dan inklusif yang memberikan akses mudah dan merangkul semua lapisan masyarakat untuk memperluas wawasan, meningkatkan keterampilan, dan memupuk budaya literasi"</p>
+  <br>
+  <br>
+  <p1 style="font-size: 20px;">Misi Perpustakaan 2024-2030</p1>
+  <br>
+<p1 style="width: 70%;">1. Memberikan akses yang mudah dan merata ke koleksi bahan bacaan yang beragam dan relevan bagi semua kalangan masyarakat.</p>
+<p1>2. Menyediakan layanan informasi yang berkualitas dan terpercaya guna mendukung pengembangan pengetahuan dan keterampilan masyarakat dalam era digital.</p>
+<p1>3. Mendorong minat dan kegemaran membaca serta pemahaman terhadap keberagaman budaya, ilmu pengetahuan, dan seni melalui program-program pendidikan dan kegiatan budaya</p>
+<p1>4. Menjadi mitra strategis dalam upaya pengembangan literasi masyarakat, termasuk literasi digital, dengan menyelenggarakan pelatihan dan workshop secara teratur.</p>
+</div>
+
+
+<br>
+      <h1 style="font-size: 20px;">Video Profil</h1>
+      <p style="font-family: poppins;"> Perpustakaan Billi, memberdayakan civitas akademika</p>
+       <video controls width="900" height="350" style="font-family: cursive;">
+      <source src="Profil Perpustakaan Sekolah Terbaik Se Indonesia.mp4"type="video/mp4">
+      </video>
+<br>
+<br>
+<br>
+      <h1 style="font-size: 20px;">Audio Profil</h1>
+      <p style="font-family: poppins;"> Hymne Perpustakaan</p>
+      <audio controls style="font-family: poppins;">
+      <source src="Hala Madrid...y nada más (feat. RedOne) (320).mp3"type="audio/mp3">
+      </audio>
+
+<br>
+
+      <h1 style="font-size: 30px;">Galeri</h1>
+      
+<a href="https://library.usu.ac.id/">
+  <img src="./img/download (14).jpeg" alt=""></a>
+<a href="https://perpustakaan.unimed.ac.id/website">
+    <img src="./img/download (15).jpeg" alt=""></a>
+<a href="http://perpustakaan.menlhk.go.id/pustaka/home/index.php?page=home">
+    <img src="./img/download (16).jpeg" alt=""></a>
+</div>
+      <footer >
+        <div class="col-12 col-md-12 mt-5 " style="background: rgb(201, 140, 79)">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12 col-md-3 mt-5">
+                      <h5>Perpustakaan Billi.</h5>
+                      <div class="socials">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                      <p>2024 copyright reserved &copy;</p>
+                  </div>
+                  <div class="col-12 col-md-3 mt-5">
+                      <h5>About</h5>
+                      <p>Blog</p>
+                      <p>Publish With Us</p>
+                  </div>
+                  <div class="col-12 col-md-3 mt-5">
+                     <h5>Help</h5>
+                     <p>Contact Us</p>
+                     <p>Helps</p>
+                     <p>Term and Conditions</p>
+                     <p>Privacy Policy</p>
+                 </div>
+                 <br>
+                 <div class="col-12 col-md-3 mt-5">
+                     <h5>Network</h5>
+                     <p>billilibrary@gmail.com</p>
+                 </div>
+              </div>
+          </div>
+      </div>
+      </div>
+      </footer>
+      
+
+      </body>
+      </html>
